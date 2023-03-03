@@ -1,0 +1,46 @@
+.footer {
+  position: fixed;
+  bottom: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer svg {
+  font-size: 5rem;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.299);
+          box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.299);
+  padding: 1rem;
+}
+
+@media (max-width: 500px) {
+  .footer svg {
+    font-size: 3.7rem;
+  }
+}
+
+.footer .replay {
+  color: #f5b748;
+}
+
+.footer .close {
+  color: #ec5e6f;
+}
+
+.footer .star {
+  color: #62b4f9;
+}
+
+.footer .favorite {
+  color: #76e2b3;
+}
+
+.footer .flash {
+  color: #915dd1;
+}
+/*# sourceMappingURL=footer.css.map */

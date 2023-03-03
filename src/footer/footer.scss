@@ -1,0 +1,31 @@
+.footer {
+  position: fixed;
+  bottom: 3vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  svg {
+    font-size: 5rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.299);
+    padding: 1rem;
+    @media (max-width: 500px) {
+      font-size: 3.7rem;
+    }
+  }
+  .replay {
+    color: #f5b748;
+  }
+  .close {
+    color: #ec5e6f;
+  }
+  .star {
+    color: #62b4f9;
+  }
+  .favorite {
+    color: #76e2b3;
+  }
+  .flash {
+    color: #915dd1;
+  }
+}

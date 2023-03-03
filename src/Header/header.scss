@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  border-bottom: 1px solid #f9f9f9;
+  .header_person-icon {
+    padding: 1rem;
+    svg {
+      font-size: 2.4rem;
+    }
+  }
+  .header_tinder-logo {
+    img {
+      width: 2rem;
+    }
+  }
+  .header_messages-logo {
+    padding: 1rem;
+    svg {
+      font-size: 2rem;
+    }
+  }
+}
