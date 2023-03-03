@@ -17,6 +17,9 @@
         background: no-repeat;
         background-size: cover;
         background-position: center;
+        @media (max-width: 400px) {
+          height: 58vh;
+        }
         h3 {
           position: absolute;
           bottom: 0;

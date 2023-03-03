@@ -20,7 +20,8 @@
 
 @media (max-width: 500px) {
   .footer svg {
-    font-size: 3.7rem;
+    font-size: 3rem;
+    padding: 0.5rem;
   }
 }
 

@@ -27,6 +27,12 @@
   background-position: center;
 }
 
+@media (max-width: 400px) {
+  .tinderCards .cards_container .swipe .card {
+    height: 58vh;
+  }
+}
+
 .tinderCards .cards_container .swipe .card h3 {
   position: absolute;
   bottom: 0;
